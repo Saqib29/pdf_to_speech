@@ -1,6 +1,5 @@
 import pyttsx3
 import PyPDF2
-
 book = open("book.pdf", "rb")
 pdfReader = PyPDF2.PdfFileReader(book)
 pages = pdfReader.numPages
